@@ -1,0 +1,57 @@
+.footer {
+  display: grid;
+  justify-content: center;
+  height: 301px;
+  background: $footer-background;
+  grid-template-columns: 300px 300px 360px 100px;
+  gap: 25px;
+  margin-top: 55px;
+}
+
+.footer_block1 {
+  display: flex;
+  flex-direction: column;
+}
+.footer_block2, .footer_block3, .footer_block4 {
+ padding-top: 20px;
+}
+.copyrights_info {
+  color: $footer-text;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  padding-top: 84px;
+}
+.footer_block_header {
+  color: $textColor;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 18px;
+}
+.footer-navigation,
+.contact_address {
+  padding-top: 20px;
+}
+.contact_address_email {
+  padding-top: 10px;
+}
+.contact_address {
+  color: $textColor;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.footer-navigation_item {
+  color: $complementary-green;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 35px;
+}
+.twitter_icon {
+  width: 30px;
+  height: 30px;
+}

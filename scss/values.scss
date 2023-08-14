@@ -1,0 +1,56 @@
+.our-values {
+  height: 714px;
+  background-color: $background-color;
+}
+
+.our-values_wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 70px;
+}
+.our-values_section {
+  padding-right: 450px;
+}
+.our-values_header {
+  color: $textColor;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: -1px;
+}
+
+.our-values_boxes {
+  display: grid;
+  grid-template-columns: 641px 351px;
+  gap: 45px;
+  margin-top: 50px;
+  padding-left: 150px;
+}
+
+.box_number {
+  color: $primary-orange;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: -0.3px;
+}
+
+.box_vector {
+  padding-top: 19px;
+  width: 50px;
+  height: 5px;
+  border-bottom: 1px solid $textColor;
+}
+.box_text {
+  color: $textColor;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: -0.3px;
+  padding-top: 26px;
+}
+

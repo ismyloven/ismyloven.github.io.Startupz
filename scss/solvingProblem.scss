@@ -1,0 +1,27 @@
+.solving_problem_wrapper {
+  height: 346px;
+}
+.solving_problem_close {
+  background: none;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  left: 300px;
+  bottom: 80px;
+}
+.solving_problem {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-top: 60px;
+}
+.solving_problem_text {
+  color: $primary-orange;
+  padding: 0 34px;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: -0.4px;
+  text-align: center;
+}
